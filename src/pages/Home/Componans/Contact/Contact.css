@@ -1,0 +1,140 @@
+.container-contact {
+    background: url(../../../../../public/contact.PNG) fixed;
+    background-size: cover;
+    width: 100%;
+    height: 38rem;
+    display: flex;
+}
+
+.container-contact h1 {
+    font-weight: 600;
+}
+
+.left-contact {
+    background: #dddddda6;
+    width: 33rem;
+    margin: 3rem;
+    padding: 5rem;
+    height: 30rem;
+    border-radius: 15px;
+}
+
+.left-contact h1,
+p {
+    padding: 20px 0;
+}
+
+.left-contact button {
+    width: 10rem;
+    padding: 8px;
+    text-align: center;
+    color: #fff;
+    background: var(--puplic-color);
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.right-contact {
+    background: #fff;
+    width: 33rem;
+    margin: 3rem;
+    padding: 5rem;
+    height: 30rem;
+    border-radius: 15px;
+}
+
+form {
+    padding: 2rem 0;
+}
+
+form .input {
+    color: #000000be;
+    margin: 10px 0;
+    border: 1px solid;
+}
+
+form button {
+    background: #000;
+    color: #fff;
+    width: 7rem;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+}
+
+@media (max-width:1000px) {
+    .content-left {
+        margin-top: -66px;
+    }
+
+    .left-contact {
+        height: 26rem;
+    }
+}
+
+@media (max-width:999px) {
+    .container-contact {
+        display: block;
+        height: 65rem;
+        padding: 5px 0px;
+    }
+
+    .left-contact {
+        height: 25rem;
+    }
+}
+
+@media (max-width:800px) {
+    .container-contact {
+        display: block;
+        height: 76rem;
+        padding: 5px 0px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .left-contact,
+    .right-contact {
+        margin: 15px 22px;
+    }
+
+    .left-contact,
+    .right-contact {
+        width: 20rem;
+    }
+
+    .left-contact {
+        height: 27rem;
+    }
+
+    .right-contact {
+        height: 17rem;
+    }
+
+    .container-contact {
+        display: block;
+        height: 66.5rem;
+        padding: 5px 0px;
+    }
+}
+
+@media (max-width:450px) {
+
+    .left-contact,
+    .right-contact {
+        width: 15rem;
+    }
+
+    .left-contact {
+        height: 30rem;
+    }
+
+    .container-contact {
+        padding-bottom: 50px;
+    }
+}

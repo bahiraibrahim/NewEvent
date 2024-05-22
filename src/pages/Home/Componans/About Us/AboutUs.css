@@ -1,0 +1,25 @@
+.container-about {
+    margin: 50px auto;
+    width: 88%;
+}
+
+.about {
+    display: flex;
+}
+
+#left-about h2,
+#left-about p {
+    margin: 15px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+#left-about h2 {
+    font-weight: 600;
+}
+
+@media (max-width:800px) {
+    .about {
+        display: block;
+    }
+}

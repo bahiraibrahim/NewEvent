@@ -1,0 +1,24 @@
+.container-venue {
+    background: url(../../../../../public/Venue.jpg) fixed;
+    background-size: cover;
+}
+
+.left-venue {
+    width: 60%;
+    padding: 5rem;
+    margin: 10px auto;
+}
+
+.left-venue span {
+    line-height: 7rem;
+}
+
+.left-venue p {
+    line-height: 1.2rem;
+    padding-bottom: 25px;
+    color: #000;
+}
+
+.left-venue h4 {
+    text-transform: capitalize;
+}

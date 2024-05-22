@@ -1,0 +1,29 @@
+.left-watch h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.container-watch {
+    margin: 50px auto;
+    width: 88%;
+}
+
+
+.watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-watch h2,
+.left-watch p {
+    margin: 15px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+@media (max-width:800px) {
+    .watch {
+        display: block;
+    }
+}

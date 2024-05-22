@@ -1,0 +1,90 @@
+.Container-1 {
+    margin: 0 20px;
+    padding: 15px;
+}
+
+.container-2 {
+    width: 70%;
+}
+
+.head-programs {
+    margin-bottom: 20px;
+}
+
+.head-content {
+    display: flex;
+    width: 20rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.head-content h4 {
+    transition: 0.5s;
+}
+
+.head-content h4:hover {
+    cursor: pointer;
+    letter-spacing: 0.8px;
+}
+
+
+.body-content {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.hour {
+    margin-right: 10px;
+}
+
+.icon-clock {
+    margin-right: 5px;
+}
+
+.location {
+    width: 30px;
+    height: 15px;
+}
+
+.left {
+    margin-right: 30px;
+}
+
+.left img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.time {
+    display: flex;
+
+}
+
+.right {
+    display: grid;
+}
+
+.span {
+    color: #000 !important;
+}
+
+.tab {
+    display: none;
+}
+
+.tab2 {
+    display: none;
+}
+
+.tab3 {
+    display: none;
+}
+
+.left-contact h1,
+p {
+    padding: 5px 0;
+    color: var(--title);
+}
